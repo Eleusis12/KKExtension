@@ -1,1 +1,1 @@
-# Simple-Copy-Paste-Extension-KuantoKusta-
+kkExtension
