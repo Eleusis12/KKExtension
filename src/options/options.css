@@ -1,0 +1,44 @@
+body {
+    color: black;
+    border: none;
+    background: #eee;
+}
+
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #333;
+    color: orange;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: bold;
+    border-bottom: 1px solid cornflowerblue;
+}
+
+.header .not-official-info {
+    font-size: 9px;
+}
+
+.label-option {
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+}
+
+.options-group {
+    display: flex;
+    margin: 20px auto;
+    width: 40%;
+    border-top: 4px solid #111;
+    border-bottom: 4px solid #111;
+    border-left: 1px solid rgba(209, 208, 208, 0.7);
+    border-right: 1px solid rgba(209, 208, 208, 0.7);
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.save-options {
+    margin: 5px;
+    margin-left: auto;
+
+}

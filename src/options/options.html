@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery MiniColors</title>
+    <meta charset="utf-8">
+
+    <!-- jQuery -->
+    <script src="../lib/js/jquery-3.5.1.min.js"></script>
+
+
+    <!-- Bootstrap 3 -->
+    <link rel="stylesheet" href="../lib/css/bootstrap.css" />
+    <script src="../lib/js/bootstrap.bundle.min.js"></script>
+
+    <!-- MiniColors -->
+    <script src="jquery.minicolors.js"></script>
+    <link rel="stylesheet" href="jquery.minicolors.css">
+
+    <link rel="stylesheet" href="options.css">
+    <script src="options.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Control types -->
+    <div class="header">
+        <img src="../../icons/Kuanto.png"
+            class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}"
+            alt="(not found)">
+        <span>extensão </span><span class="not-official-info">(não oficial)</span>
+
+    </div>
+    <div class="options-group">
+        <div class="container ">
+
+            <div class="row align-items-center mb-2">
+                <span class="label-option col-4 ">Cor do Background do Popup:</span>
+                <input type="text" id="hue-background-popup" class="form-control col bg-popup" data-control="hue"
+                    value="#ff6161">
+            </div>
+
+            <div class="row align-items-center mb-2">
+                <span class="label-option col-4">Copiar automaticamente, quando premido o icon</span>
+                <input id="automatic-copy" class="form-control col" type="checkbox">
+            </div>
+
+        </div>
+        <button class="btn btn-success save-options">Guardar</button>
+    </div>
+
+</body>
+
+</html>
